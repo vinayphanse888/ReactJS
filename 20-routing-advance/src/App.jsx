@@ -6,10 +6,11 @@ import About from './pages/About'
 import Courses from './pages/Courses'
 import Product from './pages/Product'
 import { Route, Routes } from 'react-router-dom'
+import NotFound from './pages/NotFound'
 
 const App = () => {
   return (
-    <div className='h-screen bg-black text-white'>
+    <div className='min-h-screen flex flex-col'>
       <Navbar />
 
       <Routes>
@@ -17,6 +18,8 @@ const App = () => {
         <Route path='/about' element={<About />} />
         <Route path='/courses' element={<Courses />} />
         <Route path='/product' element={<Product />} />
+
+        <Route path='*' element={<NotFound />} />
       </Routes>
 
       <Footer />
