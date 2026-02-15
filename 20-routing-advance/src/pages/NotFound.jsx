@@ -7,8 +7,7 @@ const NotFound = () => {
             <img
                 src="https://cdn.rawgit.com/ahmedhosna95/upload/1731955f/sad404.svg"
                 alt="404"
-                className="w-72 mb-6"
-            />
+                className="w-72 mb-6"/>
 
             <h1 className="text-6xl font-black mb-6">404 PAGE</h1>
 
@@ -18,8 +17,7 @@ const NotFound = () => {
 
             <Link
                 to="/"
-                className="mt-8 bg-white text-black text-2xl font-bold px-10 py-4 rounded-full shadow-lg hover:-translate-y-2 transition-all duration-300"
-            >
+                className="mt-8 bg-white text-black text-2xl font-bold px-10 py-4 rounded-full shadow-lg hover:-translate-y-2 transition-all duration-300">
                 Back to Home
             </Link>
         </div>
