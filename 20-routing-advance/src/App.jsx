@@ -12,7 +12,6 @@ const App = () => {
   return (
     <div className='min-h-screen flex flex-col'>
       <Navbar />
-
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
@@ -21,7 +20,6 @@ const App = () => {
 
         <Route path='*' element={<NotFound />} />
       </Routes>
-
       <Footer />
     </div>
   )
